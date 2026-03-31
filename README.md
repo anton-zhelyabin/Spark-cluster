@@ -4,7 +4,7 @@
 
 ### Перед развёртыванием spark'а необходимо:
 - Установить Java 11+ и настроить переменную среды JAVA_HOME
-'''
+```
 sudo apt install -y openjdk-11-jdk
 \# 1. Находим путь к Java
 update-java-alternatives -l
@@ -18,7 +18,7 @@ echo 'export PATH=$JAVA_HOME/bin:$PATH' >> ~/.bashrc
 
 \# 4. Применяем изменения
 source ~/.bashrc
-'''
+```
 
 ### Загрузка датасета
 датасет устанавливается с помощью curl.
