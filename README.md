@@ -6,17 +6,17 @@
 - Установить Java 11+ и настроить переменную среды JAVA_HOME
 '''
 sudo apt install -y openjdk-11-jdk
-# 1. Находим путь к Java
+\# 1. Находим путь к Java
 update-java-alternatives -l
 
-# 2. Обычно путь такой (для OpenJDK 11):
-# /usr/lib/jvm/java-11-openjdk-amd64
+\# 2. Обычно путь такой (для OpenJDK 11):
+\# /usr/lib/jvm/java-11-openjdk-amd64
 
-# 3. Добавляем в ~/.bashrc
+\# 3. Добавляем в ~/.bashrc
 echo 'export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64' >> ~/.bashrc
 echo 'export PATH=$JAVA_HOME/bin:$PATH' >> ~/.bashrc
 
-# 4. Применяем изменения
+\# 4. Применяем изменения
 source ~/.bashrc
 '''
 
